@@ -1,4 +1,3 @@
-from pprint import pprint
 def solve(file):
     with open(file, 'r') as f:
         layout = list(map(list, f.read().strip().split('\n')))
